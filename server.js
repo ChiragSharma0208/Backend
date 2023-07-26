@@ -12,7 +12,7 @@ mongoose.connect(`mongodb+srv://chiragsharma20202:admin@cluster0.uusjeba.mongodb
 
 const io=require('socket.io')(process.env.PORT||3001,{
     cors:{
-        origin:'http://localhost:3000',
+        origin:'https://tangerine-froyo-195e44.netlify.app',
         methods:['GET','POST']
 
     }
